@@ -52,7 +52,10 @@ cd run_scripts/refcoco
 nohup sh train_twitter10000REC.sh > train_twitter10000REC.out &  # finetune for twitter10000_VG
 sh evaluate_twitter10000REC.sh test  # inference and specify 'dev' or 'test'
 ```
+The inference results of Visual Grounding are located at **../results/twitter10000REC/OFAlargeVE_OFAlargeREC_pred/refcoco_val_predict.json**
 
 # Result statistics
 
-The inference results of Visual Grounding are located at **../results/twitter10000REC/OFAlargeVE_OFAlargeREC_pred/**
+If you did not build the test set yourself, you can directly obtain the statistical results by running [statistics.py](statistic). Note that you need to modify its 12 lines to your **../results/twitter10000REC/OFAlargeVE_OFAlargeREC_pred/refcoco_val_predict.json** file. 
+
+If you build the test set yourself, first replace the original path with your own **data_precessing/VG_precessing/OFAVE_to_OFAREC.txt** on line 4, and then use your **../results/twitter10000REC/OFAlargeVE_OFAlargeREC_pred/refcoco_val_predict.json** on line 12 to get the statistical results. 
