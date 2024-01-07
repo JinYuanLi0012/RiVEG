@@ -1,6 +1,6 @@
 experiment:
   exp_dir: experiments/
-  exp_name: more-twitter-10000
+  exp_name: RiVEG-twitter-10000
   seed: 42
 
 task: named-entity-recognition
