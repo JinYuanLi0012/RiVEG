@@ -36,6 +36,8 @@ nohup sh train_twitter10000.sh > train_twitter10000.out &  # finetune for twitte
 sh evaluate_twitter10000.sh test  # inference and specify 'dev' or 'test'
 ```
 
+The inferred VE results will be stored in **OFA/results/snli_ve_twitter10000pred/_predict.json**.
+
 ## Visual Grounding Module
 
 Same as VE Module, the VG stage of RiVEG is also based on [OFA](https://github.com/OFA-Sys/OFA).
