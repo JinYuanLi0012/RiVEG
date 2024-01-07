@@ -20,7 +20,7 @@ After completing training, the inference results will be saved in **experiments/
 
 ## Visual Entailment Module
 
-The MNER stage of RiVEG is mainly based on [OFA](https://github.com/OFA-Sys/OFA), please configure the corresponding environment according to its instructions.
+The VE stage of RiVEG is mainly based on [OFA](https://github.com/OFA-Sys/OFA), please configure the corresponding environment according to its instructions.
 
 RiVEG's VE data are available [here](https://drive.google.com/drive/folders/153WtZiHHZBzxSG8Sk76byPRynlt-nUl3?usp=sharing). Download these data and place them in the **OFA/dataset/snli_ve_data/** folder.
 
@@ -30,3 +30,11 @@ cd run_scripts/snli_ve
 nohup sh train_twitter10000.sh > train_twitter10000.out &  # finetune for twitter10000_VE
 sh evaluate_twitter10000.sh test  # inference and specify 'dev' or 'test'
 ```
+
+## Visual Grounding Module
+
+Same as VE Module, the VG stage of RiVEG is also based on [OFA](https://github.com/OFA-Sys/OFA).
+
+RiVEG's VG data are available [here](https://drive.google.com/drive/folders/153WtZiHHZBzxSG8Sk76byPRynlt-nUl3?usp=sharing). Download these data and place them in the **OFA/dataset/refcoco_data/** folder.
+
+Same usage as [OFA_Visual Grounding](https://github.com/OFA-Sys/OFA#visual-grounding-referring-expression-comprehension), then use the [script](VG) we provide to perform training and inference. Please pay attention to the modification of various file paths.
