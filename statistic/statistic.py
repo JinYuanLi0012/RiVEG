@@ -1,7 +1,3 @@
-#用来统计最终的结果，需要GMNER_finall_label.txt/OFAVE_to_OFAREC.txt/OFA_REC_pred.json
-#OFAVE_to_OFAREC.txt是一个字典，里面是包含了所有的测试样本
-#OFA_REC_pred.json是OFA根据ALBEF_to_SeqTR.txt的预测结果，要将上述两者整合，再和GMNER_finall_label做统计
-
 import json
 
 sample_dict = {}
