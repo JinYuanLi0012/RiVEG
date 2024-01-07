@@ -44,7 +44,7 @@ Same as VE Module, the VG stage of RiVEG is also based on [OFA](https://github.c
 
 RiVEG's VG data are available [here](https://drive.google.com/drive/folders/1Tc_oNEixbcRcxuVVXgdp4gAmEfB2ZAcv?usp=sharing). Download these data and place them in the **OFA/dataset/refcoco_data/** folder. 
 
-Similarly, we have provided the preprocessed **twitter10000REC_addent_test_pred.tsv** file. But if you make your own test set during the VE stage, you can run the [Twitter10000_to_OFA_REC.py](data_processing/VG_processing) to convert VE predictions **_predict.json** into VG input. Don't forget to replace line 98 of it with your own GMNER img path. 
+Similarly, we have provided the preprocessed **twitter10000REC_addent_test_pred.tsv** file. You can also make your own test set by running [Twitter10000_to_OFA_REC.py](data_processing/VG_processing) to convert VE predictions **_predict.json** to VG input. Don't forget to replace line 98 of it with your own GMNER img path. 
 
 Same usage as [OFA_Visual Grounding](https://github.com/OFA-Sys/OFA#visual-grounding-referring-expression-comprehension), then use the [script](VG) we provide to perform training and inference. Please pay attention to the modification of various file paths.
 ```
