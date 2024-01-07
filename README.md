@@ -12,7 +12,7 @@ The MNER stage of RiVEG is mainly based on AdaSeq, AdaSeq project is based on Py
 
 After following the instructions of PGIM to complete the configuration, use the following commands to complete the training and prediction of the MNER stage.
 
-Note that we have provided RiVEG's yaml configuration file, please replace the original configuration of PGIM with the configuration file here.
+Note that we have provided RiVEG's yaml configuration file, please replace the original configuration of PGIM with the configuration file [here](MNER/twitter-10000.yaml).
 ```
 python -m scripts.train -c examples/PGIM/twitter-10000.yaml
 ```
