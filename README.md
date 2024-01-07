@@ -22,7 +22,7 @@ After completing training, the inference results will be saved in **experiments/
 
 The VE stage of RiVEG is mainly based on [OFA](https://github.com/OFA-Sys/OFA), please configure the corresponding environment according to its instructions.
 
-RiVEG's VE data are available [here](https://drive.google.com/drive/folders/153WtZiHHZBzxSG8Sk76byPRynlt-nUl3?usp=sharing). Download these data and place them in the **OFA/dataset/snli_ve_data/** folder.
+RiVEG's VE data are available [here](https://drive.google.com/drive/folders/153WtZiHHZBzxSG8Sk76byPRynlt-nUl3?usp=sharing). Download these data and place them in the **OFA/dataset/snli_ve_data/** folder. We have provided the **twitter10000_addent_test_pred.tsv** file which contains the ChatGPT answers. If you want to obtain the corresponding VE test set based on your own MNER inference results, you can run the corresponding code we provide [here](data_processing/MNER_processing). First put the MNER prediction results **experiments/RiVEG-twitter-10000/.../pred.txt** into the **data_processing/MNER_processing** folder, and then run the **extract entities.py** and **GPT request.py** files in sequence. The GPT answer will be written into **data_processing/MNER_processing/testAnswer.txt**. Note that line 9 of the **GPT request.py** file needs to be replaced with your own key. And there will be a small amount of expenses. 
 
 Same usage as [OFA_Visual Entailment](https://github.com/OFA-Sys/OFA#visual-entailment), then use the [script](VE) we provide to perform training and inference. Please pay attention to the modification of various file paths.
 ```
