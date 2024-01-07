@@ -38,3 +38,8 @@ Same as VE Module, the VG stage of RiVEG is also based on [OFA](https://github.c
 RiVEG's VG data are available [here](https://drive.google.com/drive/folders/153WtZiHHZBzxSG8Sk76byPRynlt-nUl3?usp=sharing). Download these data and place them in the **OFA/dataset/refcoco_data/** folder.
 
 Same usage as [OFA_Visual Grounding](https://github.com/OFA-Sys/OFA#visual-grounding-referring-expression-comprehension), then use the [script](VG) we provide to perform training and inference. Please pay attention to the modification of various file paths.
+```
+cd run_scripts/refcoco
+nohup sh train_twitter10000REC.sh > train_twitter10000REC.out &  # finetune for twitter10000_VG
+sh evaluate_twitter10000REC.sh test  # inference and specify 'dev' or 'test'
+```
