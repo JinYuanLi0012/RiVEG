@@ -43,3 +43,7 @@ cd run_scripts/refcoco
 nohup sh train_twitter10000REC.sh > train_twitter10000REC.out &  # finetune for twitter10000_VG
 sh evaluate_twitter10000REC.sh test  # inference and specify 'dev' or 'test'
 ```
+
+# Result statistics
+
+The inference results of Visual Grounding are located at **../../results/twitter10000REC/OFAlargeVE_OFAlargeREC_pred/**
