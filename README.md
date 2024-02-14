@@ -1,7 +1,3 @@
-# RiVEG
-
-Here are code and dataset for our paper: **Improving Grounded Multimodal Named Entity Recognition via Visual Entailment and Grounding**
-
 # Usage
 
 The implementation of RiVEG mainly includes the following three parts:
