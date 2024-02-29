@@ -50,7 +50,7 @@ sh evaluate_twitter10000REC.sh test  # inference and specify 'dev' or 'test'
 ```
 The inference results of Visual Grounding are located at **../results/twitter10000REC/OFAlargeVE_OFAlargeREC_pred/refcoco_val_predict.json**
 
-# Result statistics
+## Result statistics
 
 If you did not build the test set yourself, you can directly obtain the statistical results by running [statistics.py](statistic). Note that you need to modify its 12 lines to your **../results/twitter10000REC/OFAlargeVE_OFAlargeREC_pred/refcoco_val_predict.json** file. 
 
