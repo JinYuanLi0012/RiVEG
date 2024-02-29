@@ -1,7 +1,7 @@
 import json
 
 sample_dict = {}
-sample_dict_path = r"OFAVE_to_OFAREC.txt"
+sample_dict_path = r"OFAVE_to_OFAREC_augment.txt"
 
 with open(sample_dict_path,'r',encoding='utf-8') as A:
     L = A.readlines()
