@@ -11,7 +11,7 @@ bpe_dir=../../utils/BPE
 # dev or test
 
 data=.../OFA/dataset/snli_ve_data/twitter10000_addent_test_pred.tsv
-path=.../OFA/run_scripts/snli_ve/twitter10000_large_checkpoints/6_2e-5/checkpoint.best_snli_score_0.8430.pt
+path=your best checkpoint
 result_path=../../results/snli_ve_twitter10000pred
 selected_cols=0,2,3,4,5
 
