@@ -13,7 +13,7 @@ bpe_dir=../../utils/BPE
 user_dir=../../ofa_module
 
 data_dir=../../dataset/refcoco_data
-data=${data_dir}/twitter10000REC_addent_train.tsv,${data_dir}/twitter10000REC_addent_test.tsv
+data=${data_dir}/twitter10000REC_addent_train.tsv,${data_dir}/twitter10000REC_addent_dev.tsv
 restore_file=../../checkpoints/ofa_large.pt
 selected_cols=0,4,2,3
 
