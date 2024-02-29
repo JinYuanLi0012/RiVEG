@@ -13,7 +13,7 @@ bpe_dir=../../utils/BPE
 user_dir=../../ofa_module
 
 data_dir=../../dataset/snli_ve_data
-data=${data_dir}/twitter10000_addent_train.tsv,${data_dir}/twitter10000_addent_test.tsv
+data=${data_dir}/twitter10000_addent_train.tsv,${data_dir}/twitter10000_addent_dev.tsv
 restore_file=../../checkpoints/ofa_large.pt
 selected_cols=0,2,3,4,5
 
