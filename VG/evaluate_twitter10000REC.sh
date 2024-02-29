@@ -11,9 +11,9 @@ bpe_dir=../../utils/BPE
 selected_cols=0,4,2,3
 
 
-########################## Evaluate Refcocog ##########################
+########################## Evaluate##########################
 data=../../dataset/refcoco_data/twitter10000REC_addent_test_pred.tsv
-path=.../OFA/run_scripts/refcoco/twitter10000REC_large_checkpoints/20_3e-5_512/checkpoint.best_score_0.7390.pt
+path=.../OFA/run_scripts/refcoco/twitter10000REC_large_checkpoints/your checkpoint
 result_path=../../results/twitter10000REC/OFAlargeVE_OFAlargeREC_pred
 split='refcoco_val'
 CUDA_VISIBLE_DEVICES=0 python3 -m torch.distributed.launch --nproc_per_node=1 --use_env --master_port=${MASTER_PORT} ../../evaluate.py \
