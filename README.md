@@ -1,57 +1,17 @@
-# Usage
 
-The implementation of RiVEG mainly includes the following three parts:
+<div align="center">
 
-## MNER Module
+<h1>LLMs as Bridges: Reformulating Grounded Multimodal Named Entity Recognition</h1>
 
-The MNER stage of RiVEG is mainly based on AdaSeq, AdaSeq project is based on Python version >= 3.7 and PyTorch version >= 1.8. For details on the configuration of the environment, see [PGIM](https://github.com/JinYuanLi0012/PGIM) and [AdaSeq](https://github.com/modelscope/AdaSeq).
 
-After following the instructions of PGIM to complete the configuration, use the following commands to complete the training and prediction of the MNER stage.
-Note that we have provided RiVEG's yaml configuration file, please replace the original configuration of PGIM with the configuration file [here](MNER/twitter-10000.yaml).
-```
-python -m scripts.train -c examples/PGIM/twitter-10000.yaml
-```
+<div>
+:fire: Code will be released. Stay tuned. :)
+</div>
+<br>
 
-After completing training, the inference results will be saved in **experiments/RiVEG-twitter-10000/.../pred.txt**.
+  
+<img src='RiVEG.jpg' width='90%'>
 
-## Visual Entailment Module
+</div>
 
-The VE stage of RiVEG is mainly based on [OFA](https://github.com/OFA-Sys/OFA), please configure the corresponding environment according to its instructions.
-
-RiVEG's VE data are available [here](https://drive.google.com/drive/folders/153WtZiHHZBzxSG8Sk76byPRynlt-nUl3?usp=sharing). Download these data and place them in the **OFA/dataset/snli_ve_data/** folder. 
-
-We have provided the **twitter10000_addent_test_pred.tsv** file which contains the ChatGPT answers. If you want to obtain the corresponding VE test set based on your own MNER inference results, you can run the corresponding code we provide [here](data_processing/MNER_processing). First put the MNER prediction results **experiments/RiVEG-twitter-10000/.../pred.txt** into the **data_processing/MNER_processing** folder, and then run the **extract entities.py** and **GPT request.py** files in sequence. The GPT answer will be written into **data_processing/MNER_processing/testAnswer.txt**. Note that line 9 of the **GPT request.py** file needs to be replaced with your own key. And there will be a small amount of expenses. 
-
-After this, use [Twitter10000_to_OFA_VE.py](data_processing/VE_processing
-) file to get the final tsv dataset, don't forget to replace lines 40 and 122 with the xml and img data paths of the original [GMNER dataset](https://github.com/NUSTM/GMNER).
-
-Same usage as [OFA_Visual Entailment](https://github.com/OFA-Sys/OFA#visual-entailment), then use the [script](VE) we provide to perform training and inference. Please pay attention to the modification of various file paths.
-```
-cd run_scripts/snli_ve
-nohup sh train_twitter10000.sh > train_twitter10000.out &  # finetune for twitter10000_VE
-sh evaluate_twitter10000.sh test  # inference and specify 'dev' or 'test'
-```
-
-The inferred VE results will be stored in **OFA/results/snli_ve_twitter10000pred/_predict.json**.
-
-## Visual Grounding Module
-
-Same as VE Module, the VG stage of RiVEG is also based on [OFA](https://github.com/OFA-Sys/OFA).
-
-RiVEG's VG data are available [here](https://drive.google.com/drive/folders/1Tc_oNEixbcRcxuVVXgdp4gAmEfB2ZAcv?usp=sharing). Download these data and place them in the **OFA/dataset/refcoco_data/** folder. 
-
-Similarly, we have provided the preprocessed **twitter10000REC_addent_test_pred.tsv** file. You can also make your own test set by running [Twitter10000_to_OFA_REC.py](data_processing/VG_processing) to convert VE predictions **_predict.json** to VG input. Don't forget to replace line 98 of it with your own GMNER img path. 
-
-Same usage as [OFA_Visual Grounding](https://github.com/OFA-Sys/OFA#visual-grounding-referring-expression-comprehension), then use the [script](VG) we provide to perform training and inference. Please pay attention to the modification of various file paths.
-```
-cd run_scripts/refcoco
-nohup sh train_twitter10000REC.sh > train_twitter10000REC.out &  # finetune for twitter10000_VG
-sh evaluate_twitter10000REC.sh test  # inference and specify 'dev' or 'test'
-```
-The inference results of Visual Grounding are located at **../results/twitter10000REC/OFAlargeVE_OFAlargeREC_pred/refcoco_val_predict.json**
-
-## Result statistics
-
-If you did not build the test set yourself, you can directly obtain the statistical results by running [statistics.py](statistic). Note that you need to modify its 12 lines to your **../results/twitter10000REC/OFAlargeVE_OFAlargeREC_pred/refcoco_val_predict.json** file. 
-
-If you build the test set yourself, first replace the original path with your own **data_precessing/VG_precessing/OFAVE_to_OFAREC.txt** on line 4, and then use your **../results/twitter10000REC/OFAlargeVE_OFAlargeREC_pred/refcoco_val_predict.json** on line 12 to get the statistical results. 
+Grounded Multimodal Named Entity Recognition (GMNER) is a nascent multimodal task that aims to identify named entities, entity types and their corresponding visual regions. GMNER task exhibits two challenging properties: 1) The weak correlation between image-text pairs in social media results in a significant portion of named entities being ungroundable. 2) There exists a distinction between coarse-grained referring expressions commonly used in similar tasks (e.g., phrase localization, referring expression comprehension) and fine-grained named entities. In this paper, we propose RiVEG, a unified framework that reformulates GMNER into a joint MNER-VE-VG task by leveraging large language models (LLMs) as a connecting bridge. This reformulation brings two benefits: 1) It maintains the optimal MNER performance and eliminates the need for employing object detection methods to pre-extract regional features, thereby naturally addressing two major limitations of existing GMNER methods. 2) The introduction of entity expansion expression and Visual Entailment (VE) Module unifies Visual Grounding (VG) and Entity Grounding (EG). It enables RiVEG to effortlessly inherit the Visual Entailment and Visual Grounding capabilities of any current or prospective multimodal pretraining models. Extensive experiments demonstrate that RiVEG outperforms state-of-the-art methods on the existing GMNER dataset and achieves absolute leads of 10.65%, 6.21%, and 8.83% in all three subtasks.
