@@ -5,7 +5,7 @@
 
 
 <div>
-:fire: Code will be released. Stay tuned. :)
+:fire: Code and usage will be released. Stay tuned. :)
 </div>
 <br>
 
