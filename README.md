@@ -14,7 +14,10 @@ Grounded Multimodal Named Entity Recognition (GMNER) is a nascent multimodal tas
 <img src='result.png' width='90%'>
 </div>
 
+# Todo List
 
+ - [x] Release datasets and training and inference scripts at each stage.
+ - [ ] Release full-process automatic training and inference scripts.
 
 # Usage
 
