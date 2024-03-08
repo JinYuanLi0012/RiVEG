@@ -137,10 +137,10 @@ for pre in pred:
         right+=1
 
 
-print("right: "+ str(right))
+print("right num: "+ str(right))
 pre = right/all_number_pred
 rec = right/all_number_label
 print('pre: ' + str(pre))
 print('rec: ' + str(rec))
 F1 = (2*pre*rec)/(pre+rec)
-print('Recall: ' + str(F1))
+print('F1: ' + str(F1))
