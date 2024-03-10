@@ -108,6 +108,7 @@ for pre in pred:
             if int(pre.split('###')[-2]) == 0 and int(gl.split('###')[-2])==0:
                 rightflag += 1
                 label.remove(gl)
+                break
                 
             elif int(pre.split('###')[-2]) != 0:
                 gl_allbox_str = gl.split('###')[-1].split('&')[1:]
@@ -135,6 +136,7 @@ for pre in pred:
                 if flag == 1:
                     rightflag += 1
                     label.remove(gl)
+                    break
                     
     if rightflag != 0:
         right+=1
