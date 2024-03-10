@@ -23,7 +23,7 @@ for _ in data:
 
 assert len(img)==len(box)
 assert len(box)==len(sent)
-print(len(img))
+#print(len(img))
 
 with open(r'OFA_pred_test(OFAve)_final.txt', 'w', encoding='utf-8') as F:
     for image,des,bbox in zip(img,sent,box):
