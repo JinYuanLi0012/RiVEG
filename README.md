@@ -14,7 +14,7 @@
 
 # News
 
- - [Mar. 2024] RiVEG has been accepted to ACL 2024 Findings.
+ - **[Mar. 2024]** Our work has been accepted to ACL 2024 Findings.
 
 # Todo List
 
