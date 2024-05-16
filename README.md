@@ -16,7 +16,7 @@ Here are code and datasets for our Findings of ACL 2024 paper: [LLMs as Bridges:
 
 # News
 
- - **[Mar. 2024]** Our work has been accepted to ACL 2024 Findings.
+ - **[May. 2024]** Our work has been accepted to ACL 2024 Findings.
 
 # Todo List
 
