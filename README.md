@@ -11,7 +11,6 @@ Grounded Multimodal Named Entity Recognition (GMNER) is a nascent multimodal tas
 <div align="center">
 
 <img src='RiVEG.jpg' width='90%'>
-<img src='results.png' width='90%'>
 </div>
 
 # Todo List
