@@ -94,4 +94,4 @@ If you find RiVEG useful in your research, please consider citing:
 ```
 
 # Acknowledgement
-The dataset we used is provided by [H-Index](https://github.com/NUSTM/GMNER). And our code is built upon the open-sourced [AdaSeq](https://github.com/modelscope/AdaSeq), [MoRe](https://github.com/modelscope/AdaSeq/tree/master/examples/MoRe), [OFA](https://github.com/OFA-Sys/OFA), Thanks for their great work!
+The dataset we used is provided by [H-Index](https://github.com/NUSTM/GMNER). And our code is built upon the open-sourced [AdaSeq](https://github.com/modelscope/AdaSeq), [MoRe](https://github.com/modelscope/AdaSeq/tree/master/examples/MoRe), [OFA](https://github.com/OFA-Sys/OFA). Thanks for their great work!
