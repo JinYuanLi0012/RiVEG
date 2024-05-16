@@ -80,3 +80,18 @@ The inference results of Visual Grounding are located at **../results/twitter100
 If you did not build the test set yourself, you can directly obtain the statistical results by running [statistics.py](statistic). Note that you need to modify its 12 lines to your **../results/twitter10000REC/OFAlargeVE_OFAlargeREC_pred/refcoco_val_predict.json** file. 
 
 If you build the test set yourself, first replace the original path with your own **data_precessing/VG_precessing/OFAVE_to_OFAREC.txt** on line 4, and then use your **../results/twitter10000REC/OFAlargeVE_OFAlargeREC_pred/refcoco_val_predict.json** on line 12 to get the statistical results. 
+
+# Citation
+If you find RiVEG useful in your research, please consider citing:
+
+```
+@article{li2024llms,
+  title={LLMs as Bridges: Reformulating Grounded Multimodal Named Entity Recognition},
+  author={Li, Jinyuan and Li, Han and Sun, Di and Wang, Jiahao and Zhang, Wenkun and Wang, Zan and Pan, Gang},
+  journal={arXiv preprint arXiv:2402.09989},
+  year={2024}
+}
+```
+
+# Acknowledgement
+The dataset we used is provided by [H-Index](https://github.com/NUSTM/GMNER). And our code is built upon the open-sourced [AdaSeq](https://github.com/modelscope/AdaSeq), [MoRe](https://github.com/modelscope/AdaSeq/tree/master/examples/MoRe), [OFA](https://github.com/OFA-Sys/OFA), Thanks for their great work!
