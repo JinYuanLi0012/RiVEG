@@ -8,7 +8,7 @@
 <br>
 
 <div align="center">
-
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/llms-as-bridges-reformulating-grounded/grounded-multimodal-named-entity-recognition)](https://paperswithcode.com/sota/grounded-multimodal-named-entity-recognition?p=llms-as-bridges-reformulating-grounded)
 <img src='RiVEG.jpg' width='90%'>
 </div>
 
