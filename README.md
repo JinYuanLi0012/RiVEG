@@ -94,6 +94,15 @@ If you find RiVEG useful in your research, please consider citing:
   journal={arXiv preprint arXiv:2402.09989},
   year={2024}
 }
+
+@misc{li2024advancing,
+      title={Advancing Grounded Multimodal Named Entity Recognition via LLM-Based Reformulation and Box-Based Segmentation}, 
+      author={Jinyuan Li and Ziyan Li and Han Li and Jianfei Yu and Rui Xia and Di Sun and Gang Pan},
+      year={2024},
+      eprint={2406.07268},
+      archivePrefix={arXiv},
+      primaryClass={cs.MM}
+}
 ```
 
 # Acknowledgement
