@@ -14,9 +14,11 @@
 
 Here are code and datasets for our Findings of ACL 2024 paper: [LLMs as Bridges: Reformulating Grounded Multimodal Named Entity Recognition](https://arxiv.org/pdf/2402.09989)
 
-# News
+# News🔥
 
- - **[May. 2024]** Our work has been accepted to ACL 2024 Findings.
+ - **[Jun. 2024]** The extensions of our Findings of EMNLP 2023 and ACL 2024 papers have been released. In this [paper](https://arxiv.org/abs/2406.07268), we propose a new Segmented Multimodal Named Entity Recognition (SMNER) task and construct the corresponding Twitter-SMNER dataset. Code and Twitter-SMNER dataset coming soon~
+ - **[May. 2024]** RiVEG has been accepted to ACL 2024 Findings.
+ - **[Oct. 2023]** [PGIM](https://github.com/JinYuanLi0012/PGIM) has been accepted to EMNLP 2023 Findings.
 
 # Todo List
 
