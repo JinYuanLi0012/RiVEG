@@ -12,7 +12,7 @@
 <img src='RiVEG.jpg' width='90%'>
 </div>
 
-Here are code and datasets for our Findings of ACL 2024 paper: [LLMs as Bridges: Reformulating Grounded Multimodal Named Entity Recognition](https://arxiv.org/pdf/2402.09989)
+Here are code and datasets for our Findings of ACL 2024 and further extended paper: [LLMs as Bridges: Reformulating Grounded Multimodal Named Entity Recognition](https://arxiv.org/pdf/2402.09989) & [Advancing Grounded Multimodal Named Entity Recognition via LLM-Based Reformulation and Box-Based Segmentation](https://arxiv.org/abs/2406.07268)
 
 # News🔥
 
