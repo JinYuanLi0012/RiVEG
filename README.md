@@ -23,6 +23,7 @@ Here are code and datasets for our Findings of ACL 2024 paper: [LLMs as Bridges:
 # Todo List
 
  - [x] Release datasets and training and inference scripts at each stage.
+ - [ ] Release new Twitter-SMNER dataset.
  - [ ] Release full-process automatic training and inference scripts.
 
 # Usage
