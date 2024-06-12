@@ -88,6 +88,13 @@ If you build the test set yourself, first replace the original path with your ow
 If you find RiVEG useful in your research, please consider citing:
 
 ```
+@inproceedings{li2023prompting,
+  title={Prompting chatgpt in MNER: enhanced multimodal named entity recognition with auxiliary refined knowledge},
+  author={Li, Jinyuan and Li, Han and Pan, Zhuo and Sun, Di and Wang, Jiahao and Zhang, Wenkun and Pan, Gang},
+  booktitle={The 2023 Conference on Empirical Methods in Natural Language Processing},
+  year={2023}
+}
+
 @article{li2024llms,
   title={LLMs as Bridges: Reformulating Grounded Multimodal Named Entity Recognition},
   author={Li, Jinyuan and Li, Han and Sun, Di and Wang, Jiahao and Zhang, Wenkun and Wang, Zan and Pan, Gang},
