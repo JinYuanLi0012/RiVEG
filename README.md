@@ -89,26 +89,25 @@ If you find RiVEG useful in your research, please consider citing:
 
 ```
 @inproceedings{li2023prompting,
-  title={Prompting chatgpt in MNER: enhanced multimodal named entity recognition with auxiliary refined knowledge},
+  title={Prompting ChatGPT in MNER: Enhanced Multimodal Named Entity Recognition with Auxiliary Refined Knowledge},
   author={Li, Jinyuan and Li, Han and Pan, Zhuo and Sun, Di and Wang, Jiahao and Zhang, Wenkun and Pan, Gang},
-  booktitle={The 2023 Conference on Empirical Methods in Natural Language Processing},
+  booktitle={Findings of the Association for Computational Linguistics (EMNLP), 2023},
   year={2023}
 }
 
-@article{li2024llms,
+@inproceedings{li2024llms,
   title={LLMs as Bridges: Reformulating Grounded Multimodal Named Entity Recognition},
   author={Li, Jinyuan and Li, Han and Sun, Di and Wang, Jiahao and Zhang, Wenkun and Wang, Zan and Pan, Gang},
-  journal={arXiv preprint arXiv:2402.09989},
+  booktitle={Findings of the Association for Computational Linguistics (ACL), 2024},
   year={2024}
 }
 
-@misc{li2024advancing,
-      title={Advancing Grounded Multimodal Named Entity Recognition via LLM-Based Reformulation and Box-Based Segmentation}, 
-      author={Jinyuan Li and Ziyan Li and Han Li and Jianfei Yu and Rui Xia and Di Sun and Gang Pan},
-      year={2024},
-      eprint={2406.07268},
-      archivePrefix={arXiv},
-      primaryClass={cs.MM}
+@article{li2024advancing,
+  title={Advancing Grounded Multimodal Named Entity Recognition via LLM-Based Reformulation and Box-Based Segmentation},
+  author={Li, Jinyuan and Li, Ziyan and Li, Han and Yu, Jianfei and Xia, Rui and Sun, Di and Pan, Gang},
+  journal={arXiv preprint arXiv:2406.07268},
+  year={2024}
+}
 }
 ```
 
