@@ -17,9 +17,9 @@ Here are code and datasets for our Findings of ACL 2024 and further extended pap
 
 # News🔥
 
- - **[Jun. 2024]** A new research has been released. In this [paper](https://arxiv.org/abs/2406.07268), we propose a new Segmented Multimodal Named Entity Recognition (SMNER) task and construct the corresponding Twitter-SMNER dataset. Code and Twitter-SMNER dataset coming soon~🔨
- - **[May. 2024]** RiVEG has been accepted to ACL 2024 Findings.
- - **[Oct. 2023]** [PGIM](https://github.com/JinYuanLi0012/PGIM) has been accepted to EMNLP 2023 Findings.
+ - 📆 **[Jun. 2024]** A [new research](https://arxiv.org/abs/2406.07268) has been released. We propose a new Segmented Multimodal Named Entity Recognition (SMNER) task and construct the corresponding Twitter-SMNER dataset. Code and Twitter-SMNER dataset coming soon~🔨
+ - 📆 **[May. 2024]** RiVEG has been accepted to ACL 2024 Findings.
+ - 📆 **[Oct. 2023]** [PGIM](https://github.com/JinYuanLi0012/PGIM) has been accepted to EMNLP 2023 Findings.
 
 # Todo List
 
