@@ -10,7 +10,6 @@
 <br>
 
 <div align="center">
-<img src='RiVEG.jpg' width='90%'>
 <img src='RiVEG_Beyond.jpg' width='90%'>
 </div>
 
