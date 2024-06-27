@@ -109,7 +109,6 @@ If you find RiVEG useful in your research, please consider citing:
   journal={arXiv preprint arXiv:2406.07268},
   year={2024}
 }
-}
 ```
 
 # Acknowledgement
