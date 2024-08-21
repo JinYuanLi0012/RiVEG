@@ -28,8 +28,15 @@ Here are code and datasets for our Findings of ACL 2024 and further extended pap
  - [x] Release new Twitter-SMNER dataset.
 
 # Twitter-SMNER Dataset
+</div>
 
-Our Twitter-SMNER dataset is a further development of the [Twitter-GMNER dataset](https://github.com/NUSTM/GMNER) and the usage is similar:
+<br>
+
+<div align="center">
+<img src='dataset.png' width='60%'>
+</div>
+
+Our Twitter-SMNER dataset is a further development of the [Twitter-GMNER dataset](https://github.com/NUSTM/GMNER):
 
  - Step 1: Download each tweet's associated images via this link (https://drive.google.com/file/d/1PpvvncnQkgDNeBMKVgG2zFYuRhbL873g/view)
  - Step 2: Download the segmentation mask in json format and the preprocessed CoNLL format files via this link (https://drive.google.com/file/d/1LvC6KkzlFiv3KKhbZIFsSvt7ZeafC2g2/view?usp=sharing). Note that each json file contains the segmentation masks and named entity labels of all visual objects in the corresponding image.
