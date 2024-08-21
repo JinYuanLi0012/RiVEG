@@ -17,15 +17,22 @@ Here are code and datasets for our Findings of ACL 2024 and further extended pap
 
 # News🔥
 
- - 📆 **[Jun. 2024]** A [new research](https://arxiv.org/abs/2406.07268) has been released. We propose a new Segmented Multimodal Named Entity Recognition (SMNER) task and construct the corresponding Twitter-SMNER dataset. Code and Twitter-SMNER dataset coming soon~🔨
+ - 📆 **[Aug. 2024]** [Twitter-SMNER dataset](https://github.com/JinYuanLi0012/RiVEG/edit/main/README.md#twitter-smner-dataset) has been released.
+ - 📆 **[Jun. 2024]** A [new research](https://arxiv.org/abs/2406.07268) has been released. We propose a new Segmented Multimodal Named Entity Recognition (SMNER) task and construct the corresponding Twitter-SMNER dataset. Twitter-SMNER dataset coming soon~🔨
  - 📆 **[May. 2024]** RiVEG has been accepted to ACL 2024 Findings.
  - 📆 **[Oct. 2023]** [PGIM](https://github.com/JinYuanLi0012/PGIM) has been accepted to EMNLP 2023 Findings.
 
 # Todo List
 
  - [x] Release datasets and training and inference scripts at each stage.
- - [ ] Release new Twitter-SMNER dataset.
- - [ ] Release full-process automatic training and inference scripts.
+ - [x] Release new Twitter-SMNER dataset.
+
+# Twitter-SMNER Dataset
+
+Our Twitter-SMNER dataset is a further development of the [Twitter-GMNER dataset](https://github.com/NUSTM/GMNER) and the usage is similar:
+
+ - Step 1: Download each tweet's associated images via this link (https://drive.google.com/file/d/1PpvvncnQkgDNeBMKVgG2zFYuRhbL873g/view)
+ - Step 1: Download the segmentation mask in json format and the preprocessed CoNLL format files via this link (https://drive.google.com/file/d/1LvC6KkzlFiv3KKhbZIFsSvt7ZeafC2g2/view?usp=sharing). Note that each json file contains the segmentation masks and named entity labels of all visual objects in the corresponding image. 
 
 # Usage
 
