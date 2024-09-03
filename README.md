@@ -1,7 +1,12 @@
 
 <div align="center">
 
-<h1>LLMs as Bridges: Reformulating Grounded Multimodal Named Entity Recognition</h1>
+<h1>LLMs as Bridges: Reformulating Grounded Multimodal Named Entity Recognition
+ 
+&
+
+ Advancing Grounded Multimodal Named Entity Recognition via LLM-Based Reformulation and Box-Based Segmentation
+</h1>
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/llms-as-bridges-reformulating-grounded/grounded-multimodal-named-entity-recognition)](https://paperswithcode.com/sota/grounded-multimodal-named-entity-recognition?p=llms-as-bridges-reformulating-grounded)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/advancing-grounded-multimodal-named-entity/segmented-multimodal-named-entity-recognition)](https://paperswithcode.com/sota/segmented-multimodal-named-entity-recognition?p=advancing-grounded-multimodal-named-entity)
