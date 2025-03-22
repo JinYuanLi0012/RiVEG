@@ -13,12 +13,12 @@
 <img src='RiVEG_Beyond.jpg' width='90%'>
 </div>
 
-Here are code and datasets for our Findings of ACL 2024 and further extended paper: [LLMs as Bridges: Reformulating Grounded Multimodal Named Entity Recognition](https://arxiv.org/pdf/2402.09989).
+
 # News🔥
 
  - 📆 **[Aug. 2024]** [Twitter-SMNER dataset](https://github.com/JinYuanLi0012/RiVEG/tree/main?tab=readme-ov-file#twitter-smner-dataset) has been released.
  - 📆 **[Jun. 2024]** A [new research](https://arxiv.org/abs/2406.07268) has been released. We propose a new Segmented Multimodal Named Entity Recognition (SMNER) task and construct the corresponding Twitter-SMNER dataset. Twitter-SMNER dataset coming soon~🔨
- - 📆 **[May. 2024]** RiVEG has been accepted to ACL 2024 Findings.
+ - 📆 **[May. 2024]** [RiVEG](https://arxiv.org/pdf/2402.09989) has been accepted to ACL 2024 Findings.
  - 📆 **[Oct. 2023]** [PGIM](https://github.com/JinYuanLi0012/PGIM) has been accepted to EMNLP 2023 Findings.
 
 # Todo List
