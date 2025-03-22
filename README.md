@@ -13,8 +13,7 @@
 <img src='RiVEG_Beyond.jpg' width='90%'>
 </div>
 
-Here are code and datasets for our Findings of ACL 2024 and further extended paper: [LLMs as Bridges: Reformulating Grounded Multimodal Named Entity Recognition](https://arxiv.org/pdf/2402.09989) & [Advancing Grounded Multimodal Named Entity Recognition via LLM-Based Reformulation and Box-Based Segmentation](https://arxiv.org/abs/2406.07268)
-
+Here are code and datasets for our Findings of ACL 2024 and further extended paper: [LLMs as Bridges: Reformulating Grounded Multimodal Named Entity Recognition](https://arxiv.org/pdf/2402.09989).
 # News🔥
 
  - 📆 **[Aug. 2024]** [Twitter-SMNER dataset](https://github.com/JinYuanLi0012/RiVEG/tree/main?tab=readme-ov-file#twitter-smner-dataset) has been released.
