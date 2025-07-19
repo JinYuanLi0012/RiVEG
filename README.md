@@ -16,7 +16,7 @@
 
 # News🔥
 
- - 📆 **[Jun. 2025]** [RiVEG](https://arxiv.org/abs/2406.07268) has been accepted to IEEE TMM 2025. We propose a new Segmented Multimodal Named Entity Recognition (SMNER) task and construct the corresponding Twitter-SMNER dataset.
+ - 📆 **[Jul. 2025]** [RiVEG](https://arxiv.org/abs/2406.07268) has been accepted to IEEE TMM 2025. We propose a new Segmented Multimodal Named Entity Recognition (SMNER) task and construct the corresponding Twitter-SMNER dataset.
  - 📆 **[Aug. 2024]** [Twitter-SMNER dataset](https://github.com/JinYuanLi0012/RiVEG/tree/main?tab=readme-ov-file#twitter-smner-dataset) has been released.
  - 📆 **[May. 2024]** [RiVEG](https://arxiv.org/pdf/2402.09989) has been accepted to ACL 2024 Findings.
  - 📆 **[Oct. 2023]** [PGIM](https://github.com/JinYuanLi0012/PGIM) has been accepted to EMNLP 2023 Findings.
